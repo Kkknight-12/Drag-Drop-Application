@@ -64,7 +64,7 @@ export const deleteTaskPosition = (name, _id) => async (dispatch, getState) => {
     } = getState()
 
     const { data } = await axios({
-      url: `https://resume-project-drag-drop.herokuapp.com/api/tasks/taskposition`,
+      url: `${process.env.REACT_APP_HOST_API_KEY}api/tasks/taskposition`,
       method: "delete",
       data: { name, _id },
       headers: {
