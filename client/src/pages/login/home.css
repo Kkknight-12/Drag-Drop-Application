@@ -1,0 +1,130 @@
+.login-form {
+  box-shadow: 2px 6px 28px rgba(46, 153, 211, 0.16);
+  background-color: rgba(255, 255, 255, 1);
+  max-width: 520px;
+  height: 644px;
+  /* position: absolute; */
+  /* left: 758px;
+    top: 128px; */
+  border-top-left-radius: 65px;
+  border-top-right-radius: 65px;
+  border-bottom-left-radius: 65px;
+  border-bottom-right-radius: 65px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* .login-form {
+    box-shadow: 2px 6px 28px
+        rgba(
+            45.81145137548447,
+            211.43749594688416,
+            193.03459703922272,
+            0.1599999964237213
+        );
+    
+} 
+*/
+
+.form-container {
+  padding-top: 100px;
+}
+.login-img {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 200px;
+}
+.login-form-h4 {
+  /* border-top: 2px solid rgb(233, 228, 228); */
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.form-input-fields {
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  margin-top: 20px;
+}
+.input-form-border {
+  border-top: 2px solid rgb(233, 228, 228);
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.sign-in-btn,
+.sign-up-btn {
+  color: rgba(
+    25.721355602145195,
+    58.90649490058422,
+    88.18749949336052,
+    0.33000001311302185
+  );
+  width: 76px;
+  height: 26px;
+  margin-top: 20px;
+  padding-right: 15px;
+  text-decoration: none;
+  font-family: Poppins;
+  text-align: left;
+  font-size: 26px;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+a:hover {
+  color: black;
+}
+.active {
+  color: black;
+}
+.login-submit-btn {
+  box-shadow: 1px 2px 10px rgba(11, 163, 233, 0.51);
+  background-color: rgb(73, 179, 221);
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.spinner-css{
+  position: absolute;
+  left: 150px;
+}
+.form-input {
+  background-color: rgba(255, 255, 255, 1);
+  width: 314px;
+  height: 45px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.form-input {
+  color: rgba(183.24141293764114, 192.31035590171814, 200.81250607967377, 1);
+  width: 97px;
+  height: 11px;
+  position: absolute;
+  left: 19px;
+  top: 16px;
+  font-family: Poppins;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+.e809_429 {
+  width: 477.1138610839844px;
+  height: 420px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.error-message {
+  color: red !important;
+}

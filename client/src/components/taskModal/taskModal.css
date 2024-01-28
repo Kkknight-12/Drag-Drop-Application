@@ -1,0 +1,36 @@
+.task-modal-container {
+  /* background-color: rgba(202, 229, 237, 0.9); */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 200px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+/* .task-modal-container {
+  background-color: rgba(202, 229, 237, 0.9);
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  border-radius: 6px;
+  z-index: 999;
+  left: 0 auto;
+  transform: translateX(-50%);
+} */
+
+.submit-btn {
+  padding: 10px;
+  width: 180px;
+  background-color: rgb(147, 210, 233);
+  color: rgb(15, 104, 164);
+  font-weight: bold;
+}
+
+.col-8 {
+  border: none;
+  border-radius: 6;
+}

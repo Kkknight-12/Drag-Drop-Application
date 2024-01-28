@@ -1,0 +1,23 @@
+.add-task-plus {
+  /* background-color: rgb(187, 208, 214); */
+  background-color: rgb(147, 210, 233);
+  border-radius: 6px;
+  padding: 7px;
+  color: rgb(15, 104, 164);
+  margin-bottom: 12px;
+}
+.add-task-input > input {
+  padding: 10px;
+}
+.add-task-plus > i {
+  display: block;
+  cursor: pointer;
+}
+
+.add-task-input > input:focus {
+  outline: none;
+}
+
+/* .add-task-input > input {
+    text-align: end;
+} */

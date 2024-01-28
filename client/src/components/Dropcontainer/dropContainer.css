@@ -1,0 +1,14 @@
+.drag-desc {
+  color: #6b6b6b;
+}
+
+.drag-title {
+  color: black !important;
+  font-weight: 500;
+  margin-bottom: 10px !important;
+}
+
+.drag-desc > p {
+  padding: 0;
+  margin: 0;
+}

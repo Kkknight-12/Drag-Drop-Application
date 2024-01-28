@@ -1,0 +1,22 @@
+.app {
+  color: rgb(193, 197, 200);
+}
+
+.count-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  /* background-color: #ecf3f3; */
+  background-color: rgb(201, 233, 243);
+
+  /* background-color: #ecf1f1; */
+  /* color: #329c89; */
+  color: rgb(15, 104, 164);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+  /* object-fit: cover; */
+}
+
+.col-count {
+  justify-content: center !important;
+  align-items: center !important;
+}
